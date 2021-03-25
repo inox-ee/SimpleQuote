@@ -1,0 +1,17 @@
+{
+  "name": "Simple Quote",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "markdown 形式のシンプルなリンクを作成する",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistant": false
+  },
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite",
+    "activeTab"
+  ]
+}
